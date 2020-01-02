@@ -32,15 +32,18 @@ footer, header, hgroup, menu, nav, section {
 
 	.socialMedia {
 	  list-style-type: none;
+		position: absolute;
+		top: 16px;
+		right: 32px;
 	  margin: 0;
 	  padding: 0;
 	  overflow: hidden;
 	  background-color: inherit;
-		font-size: 1.5em
+		font-size: 1.5em;
 	}
 
 	.socialMedia li {
-	  float: left;
+	  float: right;
 	}
 
 	.socialMedia li a {
@@ -50,6 +53,8 @@ footer, header, hgroup, menu, nav, section {
 	  padding: 16px;
 	  text-decoration: none;
 	}
+
+
 
 
 
