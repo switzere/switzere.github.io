@@ -32,7 +32,7 @@ footer, header, hgroup, menu, nav, section {
 
 	.socialMedia {
 	  list-style-type: none;
-		position: absolute;
+		position: fixed;
 		top: 16px;
 		right: 32px;
 	  margin: 0;
@@ -76,7 +76,7 @@ blockquote, q {
 	}
 
 table {
-	border-collapse: collapse;
+/*	border-collapse: collapse;*/
 	border-spacing: 0;
 }
 
@@ -363,7 +363,7 @@ input, select, textarea {
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 0.9em;
 		margin: 0 0 2em 0;
 	}
@@ -2853,7 +2853,7 @@ input, select, textarea {
 		}
 
 			table.alt tbody tr td {
-				border: solid 1px rgba(255, 255, 255, 0.125);
+			/*	border: solid 1px rgba(255, 255, 255, 0.125);*/
 				border-left-width: 0;
 				border-top-width: 0;
 			}
@@ -3102,7 +3102,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background-color: rgba(53, 56, 73, 0.95);
+		/*background-color: rgba(53, 56, 73, 0.95);*/
 		height: 3.5em;
 		left: 0;
 		line-height: 3.5em;
